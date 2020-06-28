@@ -1,0 +1,11 @@
+<div>
+    <button id="backToMainPage">Back to main page</button>
+    <input type="text" id="inputsubsearch" placeholder="Search by Userid" required>
+    <button id="subsearch">Search</button>
+    <input type="text" id="inputmentionsearch" placeholder="Search by Mentioned Userid" required>
+    <button id="mentionsearch">Search</button>
+    <input type="text" id="inputhashtagsearch" placeholder="Search by Hashtag" required>
+    <button id="hashtagsearch">Search</button>
+</div>
+<div id="searchresults">
+</div>

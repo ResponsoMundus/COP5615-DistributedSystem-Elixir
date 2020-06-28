@@ -1,0 +1,22 @@
+<div>
+    <h2><%= "User: " <> @userid %></h2>
+    <table>
+    <tr>
+        <td><button id="subscribeButton">Subscribe</button></td>
+        <td><button id="tweetButton">Tweet</button></td>
+        <td><button id="searchButton">Search</button></td>
+    </tr>
+    </table>
+    <h3>Subscribed Users:</h3>
+    <h4><%= get_user_information(@userid) %></h4>
+    <h3>My Followers:</h3>
+    <h4><%= get_followers(@userid) %></h4>
+    <h3>My Tweets:</h3>
+    <%= for block <- get_tweets(@userid) do %>
+        <div><%= block %></div>
+    <%= end %>
+    <h3>Subscribed tweets:</h3>
+    <%= for block <- get_subscribed_tweets(@userid) do %>
+        <div><%= block %></div>
+    <%= end %>
+</div>

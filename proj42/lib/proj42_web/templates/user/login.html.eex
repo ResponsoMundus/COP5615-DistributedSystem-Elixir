@@ -1,0 +1,5 @@
+<div class="center">
+    <input type="text" id="loginUserid" placeholder="UserId" required>
+    <input type="password" id="loginPassword" placeholder="Password" required>
+    <button id="loginButton">Login</button>
+</div>

@@ -1,0 +1,4 @@
+<div class="center">
+    <input type="text" id="subscribeUserid" placeholder="subscribeUserid" required>
+    <button id="subscribeAndRefreshButton">Subscribe</button>
+</div>

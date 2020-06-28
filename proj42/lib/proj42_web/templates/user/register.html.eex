@@ -1,0 +1,5 @@
+<div class="center">
+    <input type="text" id="registerUsername" placeholder="UserName" required>
+    <input type="password" id="registerPassword" placeholder="Password" required>
+    <button id="registerButton">Register</button>
+</div>

@@ -1,0 +1,6 @@
+<div class="center">
+    <input type="text" id="tweetContent" placeholder="tweetContent" required>
+    <input type="text" id="hashTag" placeholder="hashTag">
+    <input type="text" id="mention" placeholder="mention">
+    <button id="tweetAndRefreshButton">Submit Tweeter</button>
+</div>
